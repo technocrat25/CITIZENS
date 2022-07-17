@@ -1,0 +1,18 @@
+.right-side {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-side .right-side__container {
+  padding: 1.5rem;
+  border: 1px solid #58595b;
+  border-radius: 5px;
+  /* width: 70%; */
+  align-self: flex-end;
+}
+
+.right-side h4 {
+  font-size: 1.2rem;
+  color: #007b5e;
+}

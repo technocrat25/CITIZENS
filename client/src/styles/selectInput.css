@@ -1,0 +1,18 @@
+.selectInput {
+}
+
+.selectInput label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.selectInput select,
+.selectInput input[type="text"] {
+  margin: 1rem 0;
+  background-color: white;
+  border: 1px solid #58595b;
+  border-bottom: 2px solid #58595b;
+  border-radius: 0;
+  height: 3rem;
+  padding: 10px 20px 10px 10px;
+}

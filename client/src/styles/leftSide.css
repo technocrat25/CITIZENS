@@ -1,0 +1,7 @@
+.left-side {
+  flex: 1;
+}
+
+.left-side .left-side__container {
+  width: 70%;
+}

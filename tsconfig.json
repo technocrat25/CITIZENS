@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ESNext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "es6",
+      "es2017",
+      "esnext.asynciterable"
+    ],
+    "allowJs": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "typeRoots": ["src/globals.d.ts", "./node_modules/@types"],
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "removeComments": true
+  },
+  "include": ["src/**/*", "src/globals.d.ts"],
+  "exclude": ["src/**/*.spec.ts", "node_modules"]
+}

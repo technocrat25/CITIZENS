@@ -1,0 +1,19 @@
+.tab-list {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+.number {
+  /* padding: 0.5rem; */
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: red;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

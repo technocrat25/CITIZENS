@@ -1,0 +1,49 @@
+.steps {
+  z-index: 999;
+  color: #58595b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.steps .step {
+  margin: 0 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps .step p {
+  padding: 0;
+  margin: 0;
+}
+
+.steps .step p:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #58595b;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+
+.steps .step.active {
+  color: #007b5e;
+}
+.steps .step.active p {
+  font-weight: 600;
+}
+.steps .step.active p span {
+  font-weight: 600;
+}
+
+.steps .step.active p:nth-child(2) {
+  color: white;
+  border: 1px solid #007b5e;
+  background-color: #007b5e;
+}

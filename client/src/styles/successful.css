@@ -1,0 +1,18 @@
+.successful {
+  padding: 0 2rem;
+  padding-bottom: 10rem;
+}
+
+.successful h3 {
+  color: white;
+  font-size: 2rem;
+  background-color: #007b5e;
+  padding: 1rem;
+  width: 100%;
+}
+
+.successful p {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  color: #82c25d;
+}

@@ -1,0 +1,13 @@
+.sides {
+  padding: 0 2rem;
+}
+
+.sides h3 {
+  font-size: 2rem;
+  color: #007b5e;
+}
+
+.sides .sides-container {
+  display: flex;
+  align-items: flex-start;
+}
